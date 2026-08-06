@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="chart" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#p2)"/>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="120" height="400" fill="#1e293b" opacity="0.6"/>
+  <rect x="25" y="40" width="70" height="12" rx="4" fill="#38bdf8"/>
+  <rect x="25" y="80" width="70" height="8" rx="4" fill="#64748b"/>
+  <rect x="25" y="110" width="70" height="8" rx="4" fill="#64748b"/>
+  <rect x="25" y="140" width="70" height="8" rx="4" fill="#64748b"/>
+
+  <!-- Cards Grid -->
+  <rect x="150" y="40" width="125" height="75" rx="12" fill="#1e293b"/>
+  <rect x="290" y="40" width="125" height="75" rx="12" fill="#1e293b"/>
+  <rect x="430" y="40" width="125" height="75" rx="12" fill="#1e293b"/>
+
+  <!-- Main Chart -->
+  <rect x="150" y="140" width="405" height="220" rx="16" fill="#1e293b"/>
+  <path d="M 170 320 Q 230 220 290 260 T 410 200 T 530 170 L 530 330 L 170 330 Z" fill="url(#chart)"/>
+  <path d="M 170 320 Q 230 220 290 260 T 410 200 T 530 170" stroke="#38bdf8" stroke-width="4" fill="none"/>
+</svg>
